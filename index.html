@@ -1,8 +1,194 @@
 <!DOCTYPE html>
+<style>
+@import url('https://fonts.google.com/specimen/Cormorant+Garamond');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<h1 style="color: Red">Testing</h1>
-<p>Seems to be working nicely now, This with additions from VS code , additions on console</p>
+.header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: transparent;
+    padding: 20px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: #4b7bd4;
+    font-size: xx-large;
 
+    }
+
+.logo{
+    font-size: 45px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+    }
+ 
+.navigationBar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+    
+    }
+
+
+
+.body {
+    color: #ededed;
+
+    }
+
+.summary {
+    height: 100vh;
+    background: url('ProPic3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+
+}
+.summary-content {
+    max-width: 600px;
+}
+
+.summary-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    list-style: 1.2;
+
+}
+
+.summary-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: aqua;
+    
+}
+
+.summary-content p{
+    font-size: 20px;
+    margin: 30px 0px 40px;
+    
+}
+
+.summary-content .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 75%;
+
+
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: centre;
+    width: 150px;
+    height: 100%;
+    background:blue;
+    border: 2px solid blue;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    initial-letter: 1px;
+    color: #081b29;
+    z-index: 1;
+}
+.Profile-links {
+    position: absolute;
+    bottom: 60px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.Profile-links a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #1498f6 ;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white ;
+    text-decoration: none;
+}
+.Profile-links a :hover,
+.Profile-links :active {
+    color: #171bda;
+}
+
+.contacts{
+    position: right;
+    display: flow-root;
+    padding: 820px 500px 0px 0px;
+    font-size: large;
+
+}
+
+</style>
+
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="body">
+
+<header class="header">
+    <a color="White" href = "#" class="logo" >Personal Portforlio : Tammy Majaheni Nkhwashu.</a>
+
+</header>
+
+<section class="summary">
+    
+    <div class="summary-content">
+    <h1>Hi, I am Tammy Nkhwashu</h1>
+    <h3>IMI Trainee: Salesforce Administrator and Business Analysis</h3>
+    
+    <p> I am a self-motivated, results-oriented professional that is passionate about operational efficiency, team productivity, and customer satisfaction. I flourish in both individual and leadership roles, creating a high-performance culture via operational excellence, employee empowerment, and customer-centric methods.<br>
+        <br>I have over 14 years of experience in banking, client service, sales, people management, and operations management, having led teams of over 100 employees to improve operational performance, implement strategic initiatives, and ensure compliance, all while increasing customer satisfaction and revenue growth.<br>
+        <br>I am now enrolled in the National Certificate in IT program, which focusses on software solutions, data analysis, and digital transformation. My ambition is to bridge the gap between technology and business operations, thereby contributing to organisations dedicated to operational excellence and digital innovation.<br>
+            </p>  
+        <div class="btn-box">
+            <a href="https://www.dropbox.com/scl/fi/35xzq42j0jxvjojk1ehq2/CV_NkhwashuTM_Jan25.pdf?rlkey=xcu7ne4gabkn84hucw8q0r571&e=1&st=lo8utwmq&dl=0" class="btn-box">Open Full CV</a>
+        
+        </div>
+</div>
+<div class="Profile-links">
+    <a href=""><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bxl-twitter'></i></a>
+    <a href="#"><i class='bx bxl-facebook'></i></a>
+   </div>
+
+<div class="contacts">
+    <address>Cellphone : 0834973202/0748237529</address>
+    <address>nkhwashutm89@gmail.com</address>
+</div>
+
+</section>
+
+</body>
+
+</html>
 
 
 
