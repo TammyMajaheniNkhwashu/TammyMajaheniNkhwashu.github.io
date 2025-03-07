@@ -136,6 +136,34 @@
     padding: 820px 700px 0px 0px;
     font-size: x-large;
 
+.navigationBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: x-large;
+
+    }
+
+.navigationBar a {
+    font-family: 1.7rem;
+    color: blue;
+    font-weight: 500;
+    margin-left: 3.5rem;
+    transition: .3s;
+    font-size: x-large;
+}    
+
+.navigationBar a:hover,
+.navigationBar a:active {
+    color: blue;
+}
+
 }
 
 </style>
@@ -156,6 +184,14 @@
 <header class="header">
     <a color="White" href = "#" class="logo" >Personal Portforlio : Tammy Majaheni Nkhwashu.</a>
 
+
+
+    <nav class="navigationBar">
+        <a href="#About" class="active">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contact Info">Contact Info</a>
+    </nav>
 </header>
 
 <section class="summary">
